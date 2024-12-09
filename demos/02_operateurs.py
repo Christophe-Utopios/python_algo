@@ -1,3 +1,13 @@
+# import math
+# import math as m
+from math import *
+# from math import pi, cos
+
+# Pour utiliser une variable du module math avec la 1er méthode d'importation :
+# pi = math.pi
+# Pour utiliser une variable du module math avec la 2éme méthode d'importation :
+nb = pi
+
 # Les opérateurs arithmétique
 
 # Addition :
