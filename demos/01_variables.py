@@ -27,13 +27,13 @@ var = 23.5 # float
 print(type(var))
 
 # Le type chaîne de caractères :
-var = "ma chaîne"
+var = "ma chaîne" # str
 print(type(var))
 var = "23"
 print(type(var))
 
 # Les booléens :
-var = True # Vrai
+var = True # Vrai bool
 var = False # Faux
 
 # Récupération d'une valeur par mon utilisateur :
@@ -49,5 +49,5 @@ print(type(nb))
 nb_b = int(input("Veuillez saisir un autre nombre : "))
 print(type(nb))
 
-print(f"le nombre a est de : {nb_a}, le nombre b est de : {nb_b}")
+print(f"le nombre a est de : {nb_a:^7.2f}, le nombre b est de : {nb_b:^7.2f}")
 print("le nombre a est de :", nb_a, "le nombre b est de :", nb_b)
