@@ -14,7 +14,7 @@ print(ma_variable)
 print(ma_variable)
 print(ma_variable)
 print(ma_variable)
-print("la valeur de ma variable :", ma_variable)
+print("la valeur de ma variable :", ma_variable, "suite de ma phrase")
 
 ma_variable2 = ma_variable * 2
 print(ma_variable2)
@@ -35,3 +35,19 @@ print(type(var))
 # Les booléens :
 var = True # Vrai
 var = False # Faux
+
+# Récupération d'une valeur par mon utilisateur :
+nb = input("Veuillez saisir un nombre : ")
+print(nb)
+print(type(nb))
+
+# Le cast de variable (passer d'un type de variable à un autre)
+nb_a = int(nb)
+print(type(nb))
+
+# cast et input en une ligne :
+nb_b = int(input("Veuillez saisir un autre nombre : "))
+print(type(nb))
+
+print(f"le nombre a est de : {nb_a}, le nombre b est de : {nb_b}")
+print("le nombre a est de :", nb_a, "le nombre b est de :", nb_b)
