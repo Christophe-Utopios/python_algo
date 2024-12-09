@@ -32,10 +32,34 @@ b = b - 5
 b -= 5
 b *= 2
 
-nba = input("Saisir un nombre a : ")
-nbb = input("Saisir un nombre b : ")
+# nba = input("Saisir un nombre a : ")
+# nbb = input("Saisir un nombre b : ")
 # Concaténation de "1" + "1"
-print(nba + nbb)
+# print(nba + nbb)
 
 # La multiplication sur une chaîne de caractères duplique celle-ci.
-print(nba * 10)
+# print(nba * 10)
+
+# Les opérateurs de comparaison :
+print("-" * 50)
+
+print(25 > 5)
+print(25 < 5)
+print(25 >= 25)
+print(25 <= 35)
+print(25 == 50)
+print(25 != 50)
+
+# Les opérateurs logiques
+print("-" * 50)
+
+# ET -> les deux conditions sont vrai
+print((25 > 8) and (125 != 10)) # Vrai
+print((25 < 8) and (125 != 10)) # Faux
+
+print("-" * 50)
+# OU -> une des deux conditions est vrai
+print((50 < 19) or (50 == 50)) # Vrai
+print((50 < 19) or (50 != 50)) # Faux
+
+print(not True) # Inversion
