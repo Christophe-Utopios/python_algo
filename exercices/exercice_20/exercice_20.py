@@ -46,6 +46,7 @@ def menu_min_max_moy(liste_notes):
             break # si je return mon choix ici, on 
         else:
             print("Erreur, réessayez !\n")
+            
         match choix_Menu:
             case "1":
                 print(min(liste_notes))
