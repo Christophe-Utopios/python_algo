@@ -7,9 +7,10 @@ def panne_moteur(participants):
 
 def passe_en_tete(participants):
     # swap de variables
-    temp = participants[0]
-    participants[0] = participants[1]
-    participants[1] = temp
+    # temp = participants[0]
+    # participants[0] = participants[1]
+    # participants[1] = temp
+    participant[0], participant[1] = participant[1],  participant[0]
 
     return participants
 
