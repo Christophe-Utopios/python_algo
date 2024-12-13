@@ -5,7 +5,7 @@
 Créez un dictionnaire représentant un personnage avec les clés suivantes :
 
 - **nom**
-- **classe**
+- **classe** (Guerrier, Mage, ect...)
 - **niveau**
 - **points_de_vie**
 - **inventaire**
