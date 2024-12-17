@@ -16,3 +16,17 @@ class Chien():
 
     def jouer(self, chien):
         print(f"{self.nom} joue avec {chien.nom}")
+
+    def to_dict(self):
+        return {
+            "nom" : self.nom,
+            "age" : self.age
+        }
+    
+    # Méthode pour créer un objet à partir d'un dictionnaire
+    @classmethod
+    def from_dict(cls, chien):
+        return cls(chien["nom"], chien["age"])
+    
+# Utilisation d'une méthode de classe :
+Chien.from_dict({})
