@@ -10,7 +10,7 @@ def charger_musiques(path):
 
 def sauvegarder_musiques(path, liste):
     with open(path, "w", encoding="UTF-8") as file:
-        json.dump(liste, file, indent=4)
+        json.dump(liste, file, indent=4, ensure_ascii=False)
 
 def input_musique():
     titre = input("Veuillez saisir le titre de la chanson : ")

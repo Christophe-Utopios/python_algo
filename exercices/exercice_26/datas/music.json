@@ -1,1 +1,14 @@
-[]
+[
+    {
+        "titre": "test",
+        "artiste": "test",
+        "catégorie": "test",
+        "score": 4
+    },
+    {
+        "titre": "test2",
+        "artiste": "test2",
+        "catégorie": "test2",
+        "score": 4
+    }
+]
