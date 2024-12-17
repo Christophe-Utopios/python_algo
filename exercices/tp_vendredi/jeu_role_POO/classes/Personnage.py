@@ -53,4 +53,13 @@ class Personnage():
             for item_adversaire in adversaire.inventaire:
                 print(f"{item_adversaire.quantite} X {item_adversaire.nom}")
                 self.ajouter_objet(Objet(item_adversaire.nom, item_adversaire.quantite))
+
+    def to_dict(self):
+        return {
+            "nom": self.nom,
+            "classe": self.classe,
+            "niveau": self.niveau,
+            "pv": self.pv,
+            "inventaire": [objet.to_dict() for objet in self.inventaire]
+        }
         

@@ -18,3 +18,7 @@ titi.to_string()
 
 toto.attaquer(titi)
 toto.to_string()
+
+toto_dict = toto.to_dict()
+print(type(toto_dict))
+print(type(toto_dict["inventaire"][0]))
